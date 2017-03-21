@@ -18,9 +18,10 @@ public class CarTester {
 			System.out.println(cars[0].name);
 			System.out.println(i);
 
-			cars[0].id = 001;
-			cars[1].id = 002;
-			cars[2].id = 003;
+			cars[0].id = 01;
+			cars[1].id = 02;
+			cars[2].id = 03;
+			
 
 			class AA {
 
