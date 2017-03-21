@@ -5,5 +5,28 @@ public class CarTester {
 		Car c1 = new Car("Toyota", 1800, "Altis", "Sedan");
 		Car c2 = new Car("Mercedes", 3500, "cls", "Coupe");
 		Car c3 = new Car("Ferrari", 6000, "Enzo", "Sport");
+
+		Car[] cars = new Car[3];
+		System.out.println(cars[0]);
+
+		cars[0] = new Car("Toyota", 1800, "Altis", "Sedan");
+		cars[1] = new Car("Mercedes", 3500, "cls", "Coupe");
+		cars[2] = new Car("Ferrari", 6000, "Enzo", "Sport");
+
+		int i = 0;
+		for (i = 0; i < 3; i++) {
+			System.out.println(cars[0].name);
+			System.out.println(i);
+
+			cars[0].id = 001;
+			cars[1].id = 002;
+			cars[2].id = 003;
+
+			class AA {
+
+			}
+			AA a = new AA();
+		}
 	}
+
 }
