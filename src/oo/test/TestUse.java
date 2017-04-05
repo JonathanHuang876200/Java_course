@@ -1,4 +1,4 @@
-package oo.test;
+ package oo.test;
 
 import java.util.ArrayList;
 
@@ -9,8 +9,8 @@ public class TestUse {
 	public static void main(String[] args) {
 		Car c = new Car("xx", 2000, "name", "type");
 
-		ArrayList<String> a = new ArrayList();
 		// String[] numbers = {"331","821","886","554"};
+		ArrayList<String> a = new ArrayList();
 		a.add("331");
 		a.add("821");
 		// a.add(123);
