@@ -3,7 +3,7 @@ package oo.abstruction;
 public class Car {
 
 	String brand;
-	int cc;
+	public int cc;
 	String name;
 	String type;
 	int status;
