@@ -5,6 +5,11 @@ public class Student {
 	int chinese;
 	int math;
 	static int pass = 60;
+	static {
+		System.out.println("STATIC!!");
+		/*System.out.println(english);無法執行因為static是在物件生成前就有了*/
+		System.out.println(pass);/*因為pass也是static的部分*/
+	}
 
 	public Student(int english, int chinese, int math) {
 		this.english = english;

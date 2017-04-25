@@ -11,6 +11,10 @@ public class Car {
 	float milage;
 	/* 屬性 */
 
+	public Car(String brand,String name){
+		this(brand,name, type);
+	}
+	
 	public Car(String brand, int cc, String name, String type) { /* 區域變數 */
 		this.brand = brand;
 		this.cc = cc;
