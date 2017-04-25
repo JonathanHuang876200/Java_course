@@ -11,12 +11,15 @@ public class TicketTTester {
 		ArrayList<Integer> id = new ArrayList();
 		id.add(1);
 		id.add(2);
+		id.set(1,2);
 		ArrayList<String> name = new ArrayList();
 		name.add("X-man");
 		name.add("Batman");
+		name.set(1,"Batman");
 		ArrayList<Float> price = new ArrayList();
 		price.add(200f);
 		price.add(150f);
+		price.set(1, 150f);
 		System.out.println("請輸入你想看的電影代碼");
 		number = s.nextInt();
 		if (number == 1) {
