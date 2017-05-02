@@ -9,6 +9,10 @@ public class Tester {
 		stu1.pass = 80;
 		stu1.print();
 		stu2.print();
+		GraduateStudent gstu = new GraduateStudent(68,85,89);
+		gtsu.print();
+		
+		
 	}
 
 }

@@ -2,6 +2,8 @@ package oo.mid;
 
 import java.util.Scanner;
 
+import oo.stati.Student;
+
 public class MealTester {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
@@ -20,6 +22,10 @@ public class MealTester {
 		if (number == 2) {
 			System.out.println("您點是" + b.type + "號餐" + "價錢是" + b.money + "元");
 		}
+
+		Student stu = new Student(13, 14, 15);
+		stu.print();
+
 	}
 
 }
