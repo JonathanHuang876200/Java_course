@@ -2,8 +2,8 @@ package oo.stati;
 
 public class Student {   /* 不寫public */
 	 public int english;
-	private int chinese;
-	protected int math;
+	public int chinese;
+	public int math;
 	static int pass = 60;
 	
 	
@@ -18,12 +18,15 @@ public class Student {   /* 不寫public */
 		this.chinese = chinese;
 		this.math = math;
 	}
+	public Student(){
+		
+	}
 
 	public void print() {
 		System.out.println(getScore(english) + "\t" + getScore(chinese) + "\t" + getScore(math));
 	}
 
-	private String getScore(int score) {
+	protected String getScore(int score) {
 		if (score < pass) {
 			return String.valueOf(score) + "*";
 		} else {
