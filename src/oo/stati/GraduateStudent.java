@@ -9,7 +9,7 @@ public class GraduateStudent extends Student {
 		this.chinese = chinese;
 	}
 
-	@override
+//	@override
 	public void print() {
 		System.out.println(getScore(english) + "\t" + getScore(chinese) + "\t" + getScore(math) + "\t" + thesis);
 	}
