@@ -1,5 +1,7 @@
 package oo.shopping;
 
+import java.util.Scanner;
+
 public class Tester {
 	static int price = 6000;
 
@@ -7,12 +9,18 @@ public class Tester {
 		Customer a = new Customer();
 		SilverCustomer b = new SilverCustomer();
 		GoldenCustomer c = new GoldenCustomer();
-		a.pay(price = 6000);
-		a.moneyback(price = 6000);
-		b.pay(price = 6000);
-		b.moneyback(price = 6000);
-		c.pay(price = 6000);
-		c.moneyback(price = 6000);
-	}
+		Scanner s = new Scanner(System.in);
+		for (int i = 1; i < 3; i++) {
+			System.out.println("enter money :");
+			String money = s.nextLine();
+			int m = Integer.parseInt(money);
+			a.pay(price = m);
+			a.moneyback(price = m);
+			b.pay(price = m);
+			b.moneyback(price = m);
+			c.pay(price = m);
+			c.moneyback(price = m);
+		}
 
+	}
 }
