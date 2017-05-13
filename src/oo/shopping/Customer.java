@@ -5,15 +5,15 @@ public class Customer {
 	int pay;
 	int moneyback;
 
-	public int pay(int price) {
+	public void pay(int price) {
 		price = 6000;
 		pay = price;
-		return pay;
+		System.out.println("應付金額"+pay);
 	}
 
-	public int moneyback(int price) {
+	public void moneyback(int price) {
 		moneyback = price * 0;
-		return moneyback;
+		System.out.println("所得回饋金"+moneyback);
 	}
 
 }

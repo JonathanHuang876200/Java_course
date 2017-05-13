@@ -5,19 +5,17 @@ public class GoldenCustomer extends Customer {
 	int pay;
 	int moneyback;
 
-	public int pay(int price) {
+	public void pay(int price) {
 		super.pay(price);
-		this.price = price;
+		price = 6000;
 		pay = price * 9 / 10;
-		return pay;
-		System.out.println(pay);
+		System.out.println("應付金額"+pay);
 	}
 
-	public int moneyback(int price) {
-		this.price = price;
+	public void moneyback(int price) {
+		super.moneyback(price);
 		moneyback = price * 5 / 100;
-		return moneyback;
-		System.out.println(moneyback);
+		System.out.println("所得回饋金"+moneyback);
 	}
 
 }
