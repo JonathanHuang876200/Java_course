@@ -1,6 +1,6 @@
 package oo.CarInheritage;
 
-public class CarType extends Ob {
+public class CarType extends Object {
 
 	int wheels;
 	int cc;

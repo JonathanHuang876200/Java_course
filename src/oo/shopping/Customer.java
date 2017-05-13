@@ -5,13 +5,8 @@ public class Customer {
 	int pay;
 	int moneyback;
 
-	public Customer() {
-		this.price = price;
-		this.pay = pay;
-		this.moneyback = moneyback;
-	}
-
 	public int pay(int price) {
+		price = 6000;
 		pay = price;
 		return pay;
 	}
