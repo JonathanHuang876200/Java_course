@@ -11,7 +11,7 @@ public class Tester {
 		GoldenCustomer c = new GoldenCustomer();
 		Scanner s = new Scanner(System.in);
 		for (int i = 1; i < 3; i++) {
-			System.out.println("enter money :");
+			System.out.println("請輸入價錢 :");
 			String money = s.nextLine();
 			int m = Integer.parseInt(money);
 			a.pay(price = m);
