@@ -20,6 +20,7 @@ public class Tester {
 		for (Customer cust : list) {
 			if (cust instanceof SilverCustomer && !(cust instanceof GoldenCustomer)) {
 				System.out.println("*");
+				SilverCustomer silver = (SilverCustomer) cust;
 			}
 		}
 		cust.print();
@@ -34,5 +35,4 @@ public class Tester {
 		String s = array[i];
 		System.out.println(s);
 	}
-}
-}
+}}
