@@ -7,7 +7,7 @@ public class Tester {
 		Customer a = new Customer();
 		SilverCustomer b = new SilverCustomer();
 		GoldenCustomer c = new GoldenCustomer();
-		Scanner s = new Scanner(System.in); 
+		Scanner s = new Scanner(System.in);
 		for (int i = 1; i < 3; i++) {
 			System.out.println("請輸入價錢 :");
 			String money = s.nextLine();
