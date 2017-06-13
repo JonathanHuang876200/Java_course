@@ -5,8 +5,12 @@ public class Member {
 	private int age;
 	String name;
 
-	public Member() {
+	public Member(String name) {
 		System.out.println("member construct");
+		this.name = name;
+	}
+	public Member(){
+
 	}
 
 	public void setAge(int age) {
